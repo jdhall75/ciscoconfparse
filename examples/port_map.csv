@@ -1,0 +1,4 @@
+Old Port,New Port
+FastEthernet 0/0,GigabitEthernet 3/4
+FastEthernet 1/1,GigabitEthernet 1/5
+FastEthernet 2/2,GigabitEthernet 3/1

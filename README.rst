@@ -10,6 +10,10 @@ ciscoconfparse
    :target: https://pypi.python.org/pypi/ciscoconfparse/
    :alt: Version
 
+.. image:: https://pepy.tech/badge/ciscoconfparse
+   :target: https://pepy.tech/project/ciscoconfparse
+   :alt: Downloads
+
 .. image:: http://img.shields.io/badge/license-GPLv3-blue.svg
    :target: https://www.gnu.org/copyleft/gpl.html
    :alt: License
@@ -157,7 +161,9 @@ or `bitbucket repo`_:
 - From github_:
   ::
 
-      git clone git://github.com//mpenning/ciscoconfparse
+      git clone git://github.com/mpenning/ciscoconfparse
+      cd ciscoconfparse/
+      pip install .
 
 
 .. _FAQ:
@@ -214,7 +220,7 @@ License and Copyright
 =====================
 
 ciscoconfparse_ is licensed GPLv3_; Copyright `David Michael Pennington`_, 
-2007-2019.
+2007-2020.
 
 ciscoconfparse_ is not affiliated with Cisco Systems in any way; the word "Cisco" is a registered trademark of Cisco Systems
 
@@ -290,6 +296,8 @@ Special thanks:
 .. _`Stack Overflow`: http://stackoverflow.com/
 
 .. _`ask a question`: http://stackoverflow.com/questions/ask
+
+.. _`ciscoconfparse NetworkToCode slack channel`: https://app.slack.com/client/T09LQ7E9E/C015B4U8MMF/
 
 .. _`Secure IOS Template`: https://www.cymru.com/Documents/secure-ios-template.html
 
